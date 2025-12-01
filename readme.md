@@ -53,6 +53,7 @@ https://learn.microsoft.com/en-us/dotnet/machine-learning/how-to-guides/install-
 ## 트레이닝
 ``` bash
 mlnet regression --dataset "datas\taxi-fare-train.csv" --label-col 6 --has-header true --train-time 600
+```
 
 | 키  | 설명 |
 | ------------- | ------------- |
