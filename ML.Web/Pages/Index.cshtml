@@ -1,0 +1,15 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<form method="post">
+    @Html.EditorFor(model => model.ModelInput, "Reading")
+    <br />
+    <input type="submit" value="Predict" class="btn btn-primary" />
+</form>
+
+@Html.DisplayFor(model => model.ModelOutput, "Reading")
+
+<p style="background-color: blue; color: white;">@Html.DisplayFor(model => model.ModelOutput.Score, "Reading")</p>
