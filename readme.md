@@ -52,7 +52,8 @@ https://learn.microsoft.com/en-us/dotnet/machine-learning/how-to-guides/install-
 
 ## 트레이닝
 ``` bash
-mlnet regression --dataset "datas\taxi-fare-train.csv" --label-col 6 --has-header true --train-time 600
+mlnet regression --dataset "datas\taxi-fare-train.csv" --label-col 'Price' --has-header true --train-time 600
+mlnet regression --dataset "datas\train.csv" --label-col 'Price' --has-header true --train-time 10
 ```
 
 | 키  | 설명 |
