@@ -1,3 +1,6 @@
+본 예제는 사전에 dotnet이 설치 되어 있어야 하며 자신의 환경에 맞는
+설치 본을 다운 받아서 설치 후 진행 하세요
+https://dotnet.microsoft.com/ko-kr/download
 
 # 툴 설치
 
